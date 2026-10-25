@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HUMCOM - Contact</title>
+</head>
+<!-- bgcolor = background color (HTML attribute, no CSS). Change the color here. -->
+<body bgcolor="#f0f4ff">
+
+  <!-- HEADER (bgcolor can differ from the footer) -->
+  <table width="100%" bgcolor="#cfe0ff" cellpadding="8">
+    <tr>
+      <td width="100"><img src="images/logo_contact.png" alt="[Placeholder: Contact logo]" width="80" height="80"></td>
+      <td><h1>HUMCOM</h1></td>
+    </tr>
+    <tr>
+      <td colspan="2"><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="services.html">Services</a> | <a href="media.html">Media</a> | <a href="contact.html">Contact</a></td>
+    </tr>
+  </table>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <h1>Contact</h1>
+<h2>Contact Us</h2>
+<p>Fill out the form below with your information.</p>
+<form action="#" method="post">
+  <p><label>Full Name:<br><input type="text" name="fullname" required></label></p>
+  <p><label>Email:<br><input type="email" name="email" required></label></p>
+  <p><label>Phone:<br><input type="tel" name="phone"></label></p>
+  <p>Gender:
+    <input type="radio" name="gender" value="male"> Male
+    <input type="radio" name="gender" value="female"> Female
+    <input type="radio" name="gender" value="other"> Other
+  </p>
+  <p><label>Subject:<br>
+    <select name="subject">
+      <option>General Inquiry</option>
+      <option>Services</option>
+      <option>Feedback</option>
+    </select></label></p>
+  <p><label>Message:<br><textarea name="message" rows="5" cols="40"></textarea></label></p>
+  <p><input type="submit" value="Send"> <input type="reset" value="Clear"></p>
+</form>
+  </main>
+
+  <hr>
+
+  <!-- FOOTER -->
+  <table width="100%" bgcolor="#ffe0cf" cellpadding="8">
+    <tr>
+      <td align="center">&copy; 2026 HUMCOM. All rights reserved.</td>
+    </tr>
+  </table>
+
+</body>
+</html>
